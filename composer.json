@@ -12,5 +12,10 @@
     "symfony/dependency-injection": "~2.8|~3.0",
     "symfony/event-dispatcher": "~2.8|~3.0",
     "ocramius/proxy-manager": "~0.4|~1.0|~2.0"
+  },
+  "extra": {
+    "branch-alias": {
+        "dev-master": "0.3.x-dev"
+    }
   }
 }
