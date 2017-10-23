@@ -9,10 +9,5 @@ use KP\CommandBus\Response\ResponseInterface;
  */
 interface CommandHandlerInterface
 {
-    /**
-     * @param CommandInterface $command
-     *
-     * @return ResponseInterface
-     */
-    public function handle(CommandInterface $command);
+
 }

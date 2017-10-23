@@ -17,7 +17,7 @@ use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 /**
  * @author Konrad Podgórski <konrad.podgorski@gmail.com>
  */
-class CommandBus
+class CommandBus implements CommandBusInterface
 {
     /**
      * @var CommandHandlerInterface[]
